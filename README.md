@@ -9,6 +9,7 @@ This repo provides a bazel target for [Swift Composable Crchitecture](https://gi
 
 ```bzl
 deps = [
-    "@com_github_keith_swift_syntax//:SwiftSyntax",
+    "@swift_composable_architecture//:ComposableArchitecture",
 ]
 ```
+You may follow the `BUILD` file example in `IntegrationTest/` for details.
