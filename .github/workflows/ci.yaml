@@ -8,9 +8,10 @@ jobs:
     runs-on: macos-latest
     steps:
       - uses: actions/checkout@v1
-      - name: Setup Xcode version
-        uses: maxim-lobanov/setup-xcode@v1.6.0
-        with:
-          xcode-version: '15.1'
-      - name: Build
-        run: bazelisk build //...
+      # Uncomment until Xcode 15 and macos 14 runners are supported
+      # - name: Setup Xcode version
+      #   uses: maxim-lobanov/setup-xcode@v1.6.0
+      #   with:
+      #     xcode-version: '15.1'
+      # - name: Build
+      #   run: bazelisk build //...
