@@ -1,6 +1,6 @@
 # [Swift Composable Architecture](https://github.com/pointfreeco/swift-composable-architecture) Bazel Integration
 
-This repo provides a bazel target for [Swift Composable Crchitecture](https://github.com/pointfreeco/swift-composable-architecture).
+This repo provides a bazel target for [Swift Composable Architecture](https://github.com/pointfreeco/swift-composable-architecture).
 
 ## Usage
 1. Setup `build_bazel_rules_swift`. You may refer to the `WORKSPACE.bazel` file for example.
